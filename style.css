@@ -1,0 +1,182 @@
+body{
+    background-color: #FFF8DC;
+    height:100vh;
+    font-family:"Raleway", sans-serif;
+    margin:0;
+}
+
+.nav{
+    display:flex;
+    justify-content:space-around;
+    background-color: #6C0345;
+    height:40px;
+    text-align:left;
+    align-items: center;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+a {
+    color: #F7C566;
+    font-weight:bold;
+    text-decoration-line: none;
+    
+}
+a:hover{
+    color:#FFF8DC;
+}
+a:active{
+    color:#FFF8DC;
+}
+h4{
+    color:#6C0345;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.intro {
+    background-image: url("./imgaes/moon.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    color:#F7C566;
+    text-align:left;
+}
+.greeting{
+    font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 5rem;
+        color: #F7C566;
+        margin-bottom:10px;
+        margin-top:0;
+        padding-top:100px;
+        margin-left:150px;
+}
+.another{
+    margin-left:150px;
+    font-size:20px;
+}
+
+#about{
+    color:#6C0345;
+    margin:150px;
+    text-align: left;
+}
+.who-container{
+    display: flex inline;
+    flex-direction: row;
+}
+.me{
+    font-size:50px;
+    margin:20px;
+}
+
+.box-one{
+    margin:20px;
+    font-size:20px;
+}
+li{
+    list-style: none;
+    padding-bottom:10px;
+}
+ul{
+    padding:0;
+}
+
+hr{
+    border: dashed #6C0345 2px;
+    width:30%;
+    border-bottom:none;
+    margin: 50px auto;
+}
+#skills{
+    display:inline-block;
+    color:#6C0345;
+    margin:50px;
+    margin-top:25px;
+}
+.title{
+    text-align: center;
+    color: #6C0345;
+    font-size:50px;
+    margin:25px;
+}
+.resume-container{
+    display:grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    margin-top:50px;
+    margin-left:100px;
+    text-align: left;
+    gap:5px;
+}
+.skill-box{
+    padding:15px;
+}
+
+.link-resume{
+    color:#6C0345
+}
+.link-resume:hover{
+    color:#F7C566
+}
+#projects{
+    display:block;
+    margin:50px;
+    margin-top:25px;
+    color:#6C0345;
+}
+.project-container{
+    display:grid;
+    grid-template-columns:.5fr 1fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    margin-top:25px;
+    margin-left:100px;
+    text-align:left;
+    gap:5px;
+   
+}
+img{
+    height:200px;
+    width:300px;
+    border: #6C0345 solid 5px;
+    margin-left:100px;
+}
+.flex-project{
+    margin-left:109px;
+}
+.art-project{
+    margin-left:100px;
+}
+.TD-project{
+    margin-left:100px;
+    padding-bottom:30px;
+}
+
+.contact-container{
+    display:grid;
+    grid-template-columns: 3fr 3fr;
+    gap:10px;
+    margin: 150px;
+}
+.contact{
+    line-height: 50px;
+    font-size:20px;
+    margin-left:50px;
+    padding-left:10px;
+
+}
+.frog{
+    height:250px;
+    width:250px;
+    border-radius:50%;
+    border:#6C0345 dotted 2px;
+}
+footer{
+    color: #6C0345;
+    text-align:center;
+    font-weight:bold;
+    padding-bottom:10px;
+}
+
+
