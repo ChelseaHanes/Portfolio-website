@@ -106,7 +106,7 @@ hr{
     display:grid;
     grid-template-columns: 3fr 3fr 3fr;
     margin-top:50px;
-    margin-left:100px;
+    margin:100px;
     text-align: left;
     gap:5px;
 }
@@ -121,26 +121,26 @@ hr{
     color:#F7C566
 }
 #projects{
-    display:block;
+    display:inline-block;
     margin:50px;
     margin-top:25px;
     color:#6C0345;
 }
 .project-container{
     display:grid;
-    grid-template-columns:.5fr 1fr;
+    grid-template-columns:1fr 1fr;
     grid-template-rows: 3fr 3fr 3fr;
     margin-top:25px;
-    margin-left:100px;
+    margin:150px;
     text-align:left;
-    gap:5px;
+    gap:10px;
    
 }
 img{
     height:200px;
     width:300px;
     border: #6C0345 solid 5px;
-    margin-left:100px;
+    margin-left:50px;
 }
 .flex-project{
     margin-left:109px;
@@ -178,5 +178,3 @@ footer{
     font-weight:bold;
     padding-bottom:10px;
 }
-
-
