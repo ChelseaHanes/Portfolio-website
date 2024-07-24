@@ -97,7 +97,9 @@ hr{
     margin-top:25px;
 }
 .title{
-    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items: center;
     color: #6C0345;
     font-size:50px;
     margin:25px;
@@ -172,10 +174,12 @@ footer{
     padding-bottom:10px;
 }
 
-@media (max-width:480px){
+@media (max-width:600px){
     .project-container{
         display:flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         height:100%;
     }
 }
