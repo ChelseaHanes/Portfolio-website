@@ -60,12 +60,15 @@ h4{
 
 #about{
     color:#6C0345;
-    margin:150px;
+    margin:50px;
+    margin-top:100px;
     text-align: left;
-}
-.who-container{
     display: flex inline;
     flex-direction: row;
+}
+.who-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 .me{
     font-size:50px;
@@ -73,7 +76,7 @@ h4{
 }
 
 .box-one{
-    margin:20px;
+
     font-size:20px;
 }
 li{
@@ -98,7 +101,7 @@ hr{
 }
 .title{
     display:flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     color: #6C0345;
     font-size:50px;
@@ -123,7 +126,7 @@ hr{
     color:#F7C566
 }
 #projects{
-    display:inline-block;
+    display: inline-block;
     margin:50px;
     margin-top:25px;
     color:#6C0345;
@@ -179,7 +182,25 @@ footer{
         display:flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items:center;
         height:100%;
+    }
+    .resume-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        height:100%;
+    }
+    .who-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        height:100%;
+    }
+}
+
+
     }
 }
