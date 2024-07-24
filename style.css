@@ -172,7 +172,7 @@ footer{
     padding-bottom:10px;
 }
 
-@media (max-width:600px){
+@media (max-width:480px){
     .project-container{
         display:flex;
         flex-direction: column;
