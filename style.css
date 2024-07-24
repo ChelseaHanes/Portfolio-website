@@ -126,7 +126,8 @@ hr{
     color:#F7C566
 }
 #projects{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     margin:50px;
     margin-top:25px;
     color:#6C0345;
