@@ -126,38 +126,31 @@ hr{
     margin-top:25px;
     color:#6C0345;
 }
+
 .project-container{
     display:grid;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows: 3fr 3fr 3fr;
-    margin-top:25px;
-    margin:150px;
-    text-align:left;
+    grid-template-columns: 3fr 3fr 3fr;
+    margin-top:50px;
+    margin:100px;
+    text-align: center;
     gap:10px;
-   
+
 }
 img{
     height:200px;
     width:300px;
     border: #6C0345 solid 5px;
-    margin-left:50px;
 }
-.flex-project{
-    margin-left:109px;
-}
-.art-project{
-    margin-left:100px;
-}
+
 .TD-project{
-    margin-left:100px;
     padding-bottom:30px;
 }
 
 .contact-container{
-    display:grid;
-    grid-template-columns: 3fr 3fr;
-    gap:10px;
-    margin: 150px;
+    display:flex;
+    flex: row;
+    justify-content: space-evenly;
+ 
 }
 .contact{
     line-height: 50px;
@@ -177,4 +170,12 @@ footer{
     text-align:center;
     font-weight:bold;
     padding-bottom:10px;
+}
+
+@media (max-width:600px){
+    .project-container{
+        display:flex;
+        flex-direction: column;
+        height:100%;
+    }
 }
